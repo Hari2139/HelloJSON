@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0">
+<info organisation="com.hari.json" module="HelloJSON" />
+
+	<configurations>
+		<conf name="default" visibility="public" />
+	</configurations>
+	
+	<dependencies>
+		<dependency org="org.codehaus.jackson" name="jackson-mapper-asl" rev="1.8.5" conf="default" />
+		<dependency org="com.google.code.gson" name="gson" rev="1.7.1" conf="default" />
+		
+		<!-- For JUnit -->
+		<dependency org="junit" name="junit" rev="4.1" conf="default" />
+	</dependencies>
+
+</ivy-module>
